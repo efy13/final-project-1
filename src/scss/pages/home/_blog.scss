@@ -1,0 +1,108 @@
+#blog {
+    padding: 140px 0;
+
+    .cards {
+        position: relative;
+
+        .blog_img {
+
+            margin-bottom: 30px;
+            border-radius: 5px;
+            overflow: hidden;
+
+            img {
+                max-width: 100%;
+
+                transition: transform .35s linear;
+
+            }
+
+            .blog_span {
+                position: absolute;
+                color: #1c1c1c;
+                background: linear-gradient(90deg, rgba(252, 248, 239, 1), rgba(252, 248, 239, 1) 100%);
+                top: 25px;
+                left: 0;
+                writing-mode: tb-rl;
+                padding: 10px;
+                font-size: 14px;
+            }
+
+        }
+
+        &:hover .blog_img img {
+            transform: scale(1.2);
+        }
+
+        .text_blog {
+            .text_skincare {
+                font-size: 18px;
+                color: #1c1c1c;
+                text-decoration: none;
+                transition: .2s;
+                font-weight: 500;
+
+                &:hover {
+                    color: #b6713e;
+                }
+            }
+
+
+            p {
+                margin-top: 15px;
+                margin-bottom: 14px;
+                font-weight: 400;
+                font-family: "urbanist";
+                line-height: 1.5;
+            }
+
+            .read_more {
+                transition: .2s;
+                color: #1c1c1c;
+                text-decoration: none;
+
+                span {}
+
+                .icon {
+
+                    transform: rotate(-45deg);
+                    transition: all .3s;
+                    display: inline-block;
+
+                    i {}
+                }
+
+                i {}
+
+                &:hover .icon {
+                    transform: rotate(0);
+                    color: #b6713e;
+
+                }
+
+                &:hover {
+                    color: #b6713e;
+                }
+            }
+        }
+    }
+}
+
+.title_blog {
+
+
+    h2 {
+        text-align: center;
+        font-size: 16px;
+        color: #1c1c1c;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 20px;
+        font-size: 40px;
+
+    }
+}

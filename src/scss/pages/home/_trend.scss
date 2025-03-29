@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+.trend {
+    
+    .title {
+        text-align: center;
+
+        p {
+            margin-top: 45px;
+            font-size: 16px;
+            color: #1c1c1c;
+            
+
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #1c1c1c;
+            margin: 20px;
+        }
+    }
+
+    .trend_image {
+
+        img {
+            border-radius: 5px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .item {
+        padding: 10px;
+        position: relative;
+        box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.15);
+
+        .item_box {
+            display: flex;
+
+            .item_left {
+
+
+                img {
+                    position: relative;
+                    display: block;
+                    overflow: hidden;
+                    width: 114.34px;
+                }
+                .image_hover{
+                   position: absolute;
+                   left: 10px;
+                   top: 10px;
+                    display: block;
+                    overflow: hidden;
+                    width: 114.34px;
+                    opacity: 0;
+    transition: all .75s;
+                    &:hover{
+                        opacity: 1;
+                        
+                    }
+
+                }
+            }
+
+
+            .item_right {
+                display: flex
+;
+    justify-content: center;
+                .info {
+                    display: flex;
+                        margin-left: 30px;
+                        flex-direction: column;
+                        justify-content: center;
+                        text-align: start;
+
+
+                    .star {
+                        color: rgb(156, 156, 156);
+                        margin-bottom: 15px;
+
+                        i {
+                            font-size: 10px;
+                        }
+                    }
+
+                    .pro_title {
+                        font-size: 16px;
+                        color: #1c1c1c;
+                        margin-bottom: 15px;
+                    }
+
+                    .price {
+                        span {
+                            font-size: 14px;
+                            font-weight: 600;
+                            display: inline-block;
+                            color: #1c1c1c;
+
+                       
+                        }
+                        .line{
+                            font-size: 12px;
+                            font-weight: 600;
+                            display: inline-block;
+                            color: #b5b5b5;
+                            text-decoration: line-through;
+                            margin-left: 15px;
+
+                        }
+                    }
+                }
+            }
+            .pro_badge{
+                display: flex;
+                font-family: "urbanist";
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    span{
+        color:#ffffff;
+        background-color: #db0000;
+        font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    min-width: 50px;
+    height: 25px;
+    border-radius: 3px;
+    }
+            }
+        }
+    }
+}

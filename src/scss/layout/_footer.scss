@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+
+footer {
+    background-color: #fcf7ee;
+
+    .footers {
+        padding: 40px 0;
+
+        .left {
+            h2 {
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 29px;
+                color: black;
+                padding: 20px;
+            }
+
+            .btnz {
+                button {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    padding: 5px;
+                    background-color: white;
+                    transition: 0.4s ease-in-out;
+
+                    &:hover {
+                        background-color: #b6713e;
+                    }
+
+                    i {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.costica_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 50%;
+        height: auto;
+
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 15px;
+        font-size: 14px;
+        width: 150%;
+
+
+
+    }
+
+
+}
+
+.right {
+    margin-bottom: 29px;
+
+    h2 {
+        text-align: center;
+        justify-content: center;
+
+    }
+}
+
+.payment_img {
+    text-align: center;
+
+    img {
+        width: 50%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+.copyright h3 {
+    font-size: 16px;
+    text-align: center;
+
+
+}
