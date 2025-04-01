@@ -1,0 +1,46 @@
+.news-page {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+
+    .container {
+        text-align: center;
+
+        .title_news {
+            h1 {
+                text-align: center;
+                justify-content: center;
+                color: #222;
+                margin: 30px;
+                font-size: 30px;
+            }
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        .breadcrumb {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+
+            li {
+                color: #555;
+
+                &:not(:last-child)::after {
+                    content: " • ";
+                    color: #555;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

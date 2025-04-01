@@ -1,0 +1,45 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+#zero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  .container {
+      text-align: center;
+
+      .title {
+          font-size: 30px;
+          font-weight: bold;
+          color: #222;
+      }
+
+      .title.links {
+          margin-top: 10px;
+          font-size: 11px;
+          color: #666;
+          
+          ul {
+              list-style: none;
+              padding: 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+          }
+
+          li {
+              display: inline;
+              color: #000;
+              font-weight: bold;
+          }
+      }
+  }
+}

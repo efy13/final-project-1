@@ -1,0 +1,45 @@
+#delivery{
+    padding: 140px 0;
+    background-color: white;
+}
+
+
+
+
+.image{
+    display: flex;
+    justify-content: center;
+    
+
+    border-radius: 100%;
+
+
+    &:hover{
+        transform:translateX(10px);
+       
+    }
+    
+    img {
+        width: 100px;
+    
+        margin: 30px;
+      
+        width: 85px;
+        min-width: 85px;
+        height: 85px;
+       
+    
+        
+    }
+}
+.title_delivery{
+    text-align: center;
+    h1{
+        font-size: 20px;
+        margin: auto;
+    }
+    h4{
+        font-size: 14px;
+        margin: 10px;
+    }
+}
